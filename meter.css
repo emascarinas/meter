@@ -1,0 +1,27 @@
+.meter {
+	width: 440px;
+	height: 440px;
+	background: url(meter.png);
+	position: relative;
+	background-color: green;
+}
+.dial {	
+	position: absolute;   
+	height: 176px;
+    width: 62px;
+    top: 69px;
+    left: 193px;	
+    background: url(dial.png) no-repeat;	
+	-moz-transform-origin: 50% 84%;
+	-ms-transform-origin: 50% 84%;
+	-webkit-transform-origin: 50% 84%;
+	transform-origin: 50% 84%;
+	-ms-transform: rotate(-117deg); /* IE 9 */
+    -webkit-transform: rotate(-117deg); /* Chrome, Safari, Opera */
+    transform: rotate(-117deg);
+	-webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s; 
+
+}
